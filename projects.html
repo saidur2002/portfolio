@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Saidur Rahman</title>
+  <meta name="description" content="Featured Projects of Saidur Rahman – AI Systems, Web Applications, and Database Platforms." />
+  <meta name="theme-color" content="#050d1a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Google Fonts: Orbitron, Rajdhani, Share Tech Mono, Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@600;700;800&family=Share+Tech+Mono&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-tech projects-page">
+
+  <!-- Animated Tech Network Canvas (exact same as about me page) -->
+  <canvas id="techCanvas"></canvas>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo gaming-font" id="logo-link">SR.</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-item" id="nav-home">Home</a>
+        <a href="about.html" target="_blank" class="nav-item" id="nav-about">About me</a>
+        <a href="resume.pdf" target="_blank" class="nav-item" id="nav-resume">Resume</a>
+        <a href="index.html#services" class="nav-item" id="nav-services">Services</a>
+        <a href="projects.html" class="nav-item active" id="nav-portfolio">Projects</a>
+        <a href="contact.html" target="_blank" class="nav-item" id="nav-contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== PROJECTS CONTAINER ===== -->
+  <main class="projects-container">
+    <!-- Top Bar Navigation -->
+    <div class="about-top-bar">
+      <a href="index.html" class="back-link gaming-font">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Back to Home
+      </a>
+      <span class="about-badge gaming-font">&lt;ENGINEERED_SYSTEMS /&gt;</span>
+    </div>
+
+    <!-- Header Section -->
+    <div class="projects-header-wrap">
+      <div class="header-pre-badge gaming-font">PORTFOLIO SHOWCASE</div>
+      <h1 class="section-heading gaming-font">Featured Engineering Projects</h1>
+      <p class="section-subtext">Four production-grade systems spanning AI early-warning diagnostics, Retrieval-Augmented Generation (RAG), and normalized academic management platforms.</p>
+    </div>
+
+    <!-- =========================================================================
+         PROJECT 01: MINDPULSE (CYAN / TEAL COLOR GRADING)
+         ========================================================================= -->
+    <article class="project-box box-teal">
+      <div class="box-glow-spot spot-teal"></div>
+      
+      <!-- Top Meta Bar -->
+      <div class="project-meta-strip">
+        <div class="meta-left">
+          <span class="cyber-tag tag-teal gaming-font">01 // AI &amp; HEALTHCARE</span>
+          <span class="meta-sep">/</span>
+          <span class="meta-year">2024</span>
+        </div>
+        <div class="project-meta-badge badge-teal gaming-font">PERSONAL PROJECT</div>
+      </div>
+
+      <!-- Project Name: Big, in bold letters -->
+      <div class="project-title-area">
+        <h2 class="project-name gaming-font title-teal">MindPulse — AI-Based Mental Health Early Warning System</h2>
+      </div>
+
+      <!-- Section 1: Intro -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-teal"></span>
+          <h3 class="sub-heading gaming-font heading-teal">1. Introduction</h3>
+        </div>
+        <div class="intro-glass-card border-teal">
+          <p class="project-intro-text">
+            <strong>MindPulse</strong> is an advanced full-stack AI platform engineered to proactively monitor mental health patterns. By analyzing user behavioral inputs and real-time self-assessment metrics, the system calculates dynamic wellness scores (0–100) to identify early warning signs of stress and psychological fatigue before critical escalation.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 2: Functionality (Bento Grid of Modern Feature Cards) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-teal"></span>
+          <h3 class="sub-heading gaming-font heading-teal">2. Key Functionalities</h3>
+        </div>
+        <div class="features-bento-grid">
+          <div class="bento-feature-item bento-teal">
+            <div class="feature-icon-badge badge-icon-teal">⚡</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Real-Time Wellness Scoring (0-100)</h4>
+              <p class="feature-desc">Computes a real-time wellness index applying predictive assessment algorithms on continuous behavioral logs.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-teal">
+            <div class="feature-icon-badge badge-icon-teal">🎯</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Personalized Recommendation Engine</h4>
+              <p class="feature-desc">Prescribes customized mindfulness exercises, breathing routines, and daily schedules tailored to each user's dynamic score.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-teal">
+            <div class="feature-icon-badge badge-icon-teal">📊</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Trend Visualization Dashboard</h4>
+              <p class="feature-desc">An interactive React dashboard equipped with time-series charts to track mental wellness trajectories over days and months.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-teal">
+            <div class="feature-icon-badge badge-icon-teal">🔒</div>
+            <div class="feature-content">
+              <h4 class="feature-title">End-to-End Encrypted Auth</h4>
+              <p class="feature-desc">Safeguards sensitive psychological data utilizing JWT session token management and military-grade AES-256 encryption.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Programming Languages & Tech Stack -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-teal"></span>
+          <h3 class="sub-heading gaming-font heading-teal">3. Programming Languages &amp; Tech Stack</h3>
+        </div>
+        <ul class="project-bullets bullet-teal tech-bullets">
+          <li><strong>Frontend:</strong> React.js, JavaScript (ES6+), HTML5, CSS3, Modern Dashboard UI</li>
+          <li><strong>Backend:</strong> Python, FastAPI (High-Performance Asynchronous REST API)</li>
+          <li><strong>Database:</strong> MongoDB (Flexible NoSQL document store for assessment records)</li>
+          <li><strong>Security &amp; Protocols:</strong> JWT (JSON Web Tokens), AES-256 Encryption, Axios, REST Architecture</li>
+        </ul>
+        <div class="tech-chips-strip">
+          <span class="tech-chip chip-teal">React.js</span>
+          <span class="tech-chip chip-teal">Python</span>
+          <span class="tech-chip chip-teal">FastAPI</span>
+          <span class="tech-chip chip-teal">MongoDB</span>
+          <span class="tech-chip chip-teal">JWT Auth</span>
+          <span class="tech-chip chip-teal">AES-256</span>
+          <span class="tech-chip chip-teal">REST API</span>
+        </div>
+      </div>
+
+      <!-- Section 4: How I Made It (Architectural Blueprint Style) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-teal"></span>
+          <h3 class="sub-heading gaming-font heading-teal">4. How I Made It</h3>
+        </div>
+        <div class="how-made-terminal card-teal">
+          <div class="terminal-bar bar-teal">
+            <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+            <span class="term-label gaming-font">ARCHITECTURE &amp; IMPLEMENTATION SPEC</span>
+          </div>
+          <div class="terminal-body">
+            <p>
+              I architected MindPulse with a decoupled microservice structure. The frontend was developed in <strong>React.js</strong> to ensure instantaneous state updates, responsive data visualization, and seamless trend tracking. On the server side, <strong>Python with FastAPI</strong> processes incoming assessment payloads asynchronously, calculating wellness scores through deterministic scoring algorithms. User records are encrypted with <strong>AES-256</strong> before persisting into <strong>MongoDB</strong>, ensuring complete confidentiality and HIPAA-compliant privacy protocols.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5: Project Links -->
+      <div class="project-links-wrap">
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-teal-solid gaming-font">
+          <span class="pulse-dot"></span>
+          Live Preview
+        </a>
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-teal-outline gaming-font">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          Source Code (GitHub)
+        </a>
+      </div>
+    </article>
+
+
+    <!-- =========================================================================
+         PROJECT 02: PDF QNA SYSTEM (VIOLET / PURPLE COLOR GRADING)
+         ========================================================================= -->
+    <article class="project-box box-purple">
+      <div class="box-glow-spot spot-purple"></div>
+
+      <!-- Top Meta Bar -->
+      <div class="project-meta-strip">
+        <div class="meta-left">
+          <span class="cyber-tag tag-purple gaming-font">02 // NLP &amp; RAG ENGINE</span>
+          <span class="meta-sep">/</span>
+          <span class="meta-year">2024</span>
+        </div>
+        <div class="project-meta-badge badge-purple gaming-font">PERSONAL PROJECT</div>
+      </div>
+
+      <!-- Project Name: Big, in bold letters -->
+      <div class="project-title-area">
+        <h2 class="project-name gaming-font title-purple">PDF QnA System — AI Document Intelligence Tool</h2>
+      </div>
+
+      <!-- Section 1: Intro -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-purple"></span>
+          <h3 class="sub-heading gaming-font heading-purple">1. Introduction</h3>
+        </div>
+        <div class="intro-glass-card border-purple">
+          <p class="project-intro-text">
+            The <strong>PDF QnA System</strong> is an AI-powered document intelligence tool that enables users to upload PDF documents and extract knowledge on-demand through an interactive natural language chat interface, eliminating manual search through large text documents.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 2: Functionality (Bento Grid) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-purple"></span>
+          <h3 class="sub-heading gaming-font heading-purple">2. Key Functionalities</h3>
+        </div>
+        <div class="features-bento-grid">
+          <div class="bento-feature-item bento-purple">
+            <div class="feature-icon-badge badge-icon-purple">💬</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Natural Language Document Q&amp;A</h4>
+              <p class="feature-desc">Ask conversational queries in real-time across complex single or multi-page technical PDF documents.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-purple">
+            <div class="feature-icon-badge badge-icon-purple">🧠</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Retrieval-Augmented Generation (RAG)</h4>
+              <p class="feature-desc">Extracts semantic text chunks and vector embeddings to ground AI responses strictly in factual source document text.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-purple">
+            <div class="feature-icon-badge badge-icon-purple">💾</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Persistent Multi-Turn Chat Memory</h4>
+              <p class="feature-desc">Stores complete session histories in MongoDB for context-aware conversation continuity across browser visits.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-purple">
+            <div class="feature-icon-badge badge-icon-purple">📁</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Role-Based Dashboard &amp; File UI</h4>
+              <p class="feature-desc">Complete user authentication (login/signup) with integrated document library to upload, preview, and manage PDFs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Programming Languages & Tech Stack -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-purple"></span>
+          <h3 class="sub-heading gaming-font heading-purple">3. Programming Languages &amp; Tech Stack</h3>
+        </div>
+        <ul class="project-bullets bullet-purple tech-bullets">
+          <li><strong>Frontend:</strong> React.js, Axios, Modern Responsive CSS</li>
+          <li><strong>Backend &amp; AI:</strong> Python, FastAPI, RAG Framework, Semantic Embedding Pipeline</li>
+          <li><strong>Database:</strong> MongoDB (Session history and file reference storage)</li>
+          <li><strong>Tools &amp; Libraries:</strong> PyPDF / PDFPlumber, RESTful Endpoints, Postman</li>
+        </ul>
+        <div class="tech-chips-strip">
+          <span class="tech-chip chip-purple">React.js</span>
+          <span class="tech-chip chip-purple">Python</span>
+          <span class="tech-chip chip-purple">FastAPI</span>
+          <span class="tech-chip chip-purple">RAG Pipeline</span>
+          <span class="tech-chip chip-purple">Vector Embeddings</span>
+          <span class="tech-chip chip-purple">MongoDB</span>
+          <span class="tech-chip chip-purple">Axios</span>
+        </div>
+      </div>
+
+      <!-- Section 4: How I Made It (Terminal Blueprint) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-purple"></span>
+          <h3 class="sub-heading gaming-font heading-purple">4. How I Made It</h3>
+        </div>
+        <div class="how-made-terminal card-purple">
+          <div class="terminal-bar bar-purple">
+            <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+            <span class="term-label gaming-font">RAG PIPELINE &amp; INTEGRATION SPEC</span>
+          </div>
+          <div class="terminal-body">
+            <p>
+              I engineered an automated <strong>RAG (Retrieval-Augmented Generation)</strong> pipeline in <strong>Python</strong>. Uploaded PDFs are parsed, segmented into overlapping semantic chunks, and embedded into high-dimensional vector representations. When a query is received, cosine similarity scoring extracts the most relevant context and injects it into the LLM prompt to generate factual, hallucination-free answers. The interface was created in <strong>React.js</strong> with <strong>Axios</strong> handling multipart file uploads, while <strong>MongoDB</strong> maintains historical threads per user account.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5: Project Links -->
+      <div class="project-links-wrap">
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-purple-solid gaming-font">
+          <span class="pulse-dot"></span>
+          Live Preview
+        </a>
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-purple-outline gaming-font">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          Source Code (GitHub)
+        </a>
+      </div>
+    </article>
+
+
+    <!-- =========================================================================
+         PROJECT 03: STUDENT MANAGEMENT SYSTEM (AMBER / GOLD COLOR GRADING)
+         ========================================================================= -->
+    <article class="project-box box-amber">
+      <div class="box-glow-spot spot-amber"></div>
+
+      <!-- Top Meta Bar -->
+      <div class="project-meta-strip">
+        <div class="meta-left">
+          <span class="cyber-tag tag-amber gaming-font">03 // ENTERPRISE ERP &amp; DBMS</span>
+          <span class="meta-sep">/</span>
+          <span class="meta-year">2023</span>
+        </div>
+        <div class="project-meta-badge badge-amber gaming-font">ACADEMIC PROJECT</div>
+      </div>
+
+      <!-- Project Name: Big, in bold letters -->
+      <div class="project-title-area">
+        <h2 class="project-name gaming-font title-amber">Student Management System</h2>
+      </div>
+
+      <!-- Section 1: Intro -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-amber"></span>
+          <h3 class="sub-heading gaming-font heading-amber">1. Introduction</h3>
+        </div>
+        <div class="intro-glass-card border-amber">
+          <p class="project-intro-text">
+            A full-stack institutional web portal engineered to automate and digitize university student administration, grade tracking, course enrollment, and faculty evaluations under strict security protocols.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 2: Functionality (Bento Grid) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-amber"></span>
+          <h3 class="sub-heading gaming-font heading-amber">2. Key Functionalities</h3>
+        </div>
+        <div class="features-bento-grid">
+          <div class="bento-feature-item bento-amber">
+            <div class="feature-icon-badge badge-icon-amber">🛡️</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Role-Based Access Control (RBAC)</h4>
+              <p class="feature-desc">Segmented permissions providing dedicated administrator controls and student-facing score &amp; transcript views.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-amber">
+            <div class="feature-icon-badge badge-icon-amber">📝</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Full Lifecycle Record CRUD</h4>
+              <p class="feature-desc">Add, edit, query, and organize academic enrollments, student profiles, and examination records seamlessly.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-amber">
+            <div class="feature-icon-badge badge-icon-amber">⚔️</div>
+            <div class="feature-content">
+              <h4 class="feature-title">SQL Injection Shielding</h4>
+              <p class="feature-desc">Server-side validation using parameterized PDO prepared statements to secure database operations against attack vectors.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-amber">
+            <div class="feature-icon-badge badge-icon-amber">⚡</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Optimized Query Execution (3NF)</h4>
+              <p class="feature-desc">Database normalization and indexing ensuring sub-second record lookups even across thousands of student records.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Programming Languages & Tech Stack -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-amber"></span>
+          <h3 class="sub-heading gaming-font heading-amber">3. Programming Languages &amp; Tech Stack</h3>
+        </div>
+        <ul class="project-bullets bullet-amber tech-bullets">
+          <li><strong>Backend:</strong> PHP (OOP &amp; Procedural Server Scripting)</li>
+          <li><strong>Database:</strong> MySQL (Relational Database with 3NF Schema)</li>
+          <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (Dynamic UI interaction)</li>
+          <li><strong>Server Environment &amp; Tools:</strong> Apache, XAMPP, Git, GitHub</li>
+        </ul>
+        <div class="tech-chips-strip">
+          <span class="tech-chip chip-amber">PHP</span>
+          <span class="tech-chip chip-amber">MySQL</span>
+          <span class="tech-chip chip-amber">JavaScript</span>
+          <span class="tech-chip chip-amber">HTML5 &amp; CSS3</span>
+          <span class="tech-chip chip-amber">3NF Database</span>
+          <span class="tech-chip chip-amber">PDO Prepared Statements</span>
+          <span class="tech-chip chip-amber">XAMPP</span>
+        </div>
+      </div>
+
+      <!-- Section 4: How I Made It (Terminal Blueprint) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-amber"></span>
+          <h3 class="sub-heading gaming-font heading-amber">4. How I Made It</h3>
+        </div>
+        <div class="how-made-terminal card-amber">
+          <div class="terminal-bar bar-amber">
+            <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+            <span class="term-label gaming-font">RELATIONAL ARCHITECTURE SPECIFICATION</span>
+          </div>
+          <div class="terminal-body">
+            <p>
+              I structured the application following <strong>MVC architectural patterns</strong> in <strong>PHP</strong>. I architected the <strong>MySQL</strong> database applying <strong>Third Normal Form (3NF)</strong> to eliminate redundant fields and preserve relational integrity across course, enrollment, and student tables. All database interactions were executed via <strong>PDO parameterized queries</strong> to prevent SQL injection vulnerabilities, supported by responsive CSS layout for accessibility on university workstations and smartphones.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5: Project Links -->
+      <div class="project-links-wrap">
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-amber-solid gaming-font">
+          <span class="pulse-dot"></span>
+          Live Preview
+        </a>
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-amber-outline gaming-font">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          Source Code (GitHub)
+        </a>
+      </div>
+    </article>
+
+
+    <!-- =========================================================================
+         PROJECT 04: LIBRARY MANAGEMENT SYSTEM (EMERALD / GREEN COLOR GRADING)
+         ========================================================================= -->
+    <article class="project-box box-green">
+      <div class="box-glow-spot spot-green"></div>
+
+      <!-- Top Meta Bar -->
+      <div class="project-meta-strip">
+        <div class="meta-left">
+          <span class="cyber-tag tag-green gaming-font">04 // INVENTORY &amp; AUTOMATION</span>
+          <span class="meta-sep">/</span>
+          <span class="meta-year">2023</span>
+        </div>
+        <div class="project-meta-badge badge-green gaming-font">ACADEMIC PROJECT</div>
+      </div>
+
+      <!-- Project Name: Big, in bold letters -->
+      <div class="project-title-area">
+        <h2 class="project-name gaming-font title-green">Library Management System</h2>
+      </div>
+
+      <!-- Section 1: Intro -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-green"></span>
+          <h3 class="sub-heading gaming-font heading-green">1. Introduction</h3>
+        </div>
+        <div class="intro-glass-card border-green">
+          <p class="project-intro-text">
+            A digital library management solution that automates book cataloging, circulation workflows, member registrations, and issue/return tracking with intelligent duplicate-record prevention logic.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 2: Functionality (Bento Grid) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-green"></span>
+          <h3 class="sub-heading gaming-font heading-green">2. Key Functionalities</h3>
+        </div>
+        <div class="features-bento-grid">
+          <div class="bento-feature-item bento-green">
+            <div class="feature-icon-badge badge-icon-green">📚</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Digital Catalog &amp; Search</h4>
+              <p class="feature-desc">Searchable library collection supporting title, author, category, and ISBN lookups with real-time stock counters.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-green">
+            <div class="feature-icon-badge badge-icon-green">🔄</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Circulation &amp; Issue Automation</h4>
+              <p class="feature-desc">Automated lending workflows with scheduled return dates and member borrowing quota tracking.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-green">
+            <div class="feature-icon-badge badge-icon-green">⚠️</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Duplicate-Record Detection</h4>
+              <p class="feature-desc">Custom verification logic that flags duplicate checkouts and restricts over-issuing beyond student permissions.</p>
+            </div>
+          </div>
+
+          <div class="bento-feature-item bento-green">
+            <div class="feature-icon-badge badge-icon-green">📱</div>
+            <div class="feature-content">
+              <h4 class="feature-title">Responsive Adaptive UI</h4>
+              <p class="feature-desc">Fluid cross-browser compatible interface designed for both librarians on desktops and students on mobile devices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3: Programming Languages & Tech Stack -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-green"></span>
+          <h3 class="sub-heading gaming-font heading-green">3. Programming Languages &amp; Tech Stack</h3>
+        </div>
+        <ul class="project-bullets bullet-green tech-bullets">
+          <li><strong>Backend:</strong> PHP (Server-side validation &amp; workflow automation)</li>
+          <li><strong>Database:</strong> MySQL (Relational book and transaction tables)</li>
+          <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript</li>
+          <li><strong>Tools:</strong> XAMPP, Apache, Git Version Control</li>
+        </ul>
+        <div class="tech-chips-strip">
+          <span class="tech-chip chip-green">PHP</span>
+          <span class="tech-chip chip-green">MySQL</span>
+          <span class="tech-chip chip-green">JavaScript</span>
+          <span class="tech-chip chip-green">HTML5 / CSS3</span>
+          <span class="tech-chip chip-green">Duplicate Detection Logic</span>
+          <span class="tech-chip chip-green">XAMPP</span>
+          <span class="tech-chip chip-green">Git</span>
+        </div>
+      </div>
+
+      <!-- Section 4: How I Made It (Terminal Blueprint) -->
+      <div class="project-section-pane">
+        <div class="pane-header">
+          <span class="pane-indicator ind-green"></span>
+          <h3 class="sub-heading gaming-font heading-green">4. How I Made It</h3>
+        </div>
+        <div class="how-made-terminal card-green">
+          <div class="terminal-bar bar-green">
+            <span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>
+            <span class="term-label gaming-font">CIRCULATION ENGINE &amp; DB SPEC</span>
+          </div>
+          <div class="terminal-body">
+            <p>
+              I built the platform using <strong>PHP and MySQL</strong>, focusing on robust data integrity and state tracking. Relational schemas were normalized into <strong>3NF</strong> to avoid redundancy between transaction logs and book inventory. I engineered validation algorithms in PHP to prevent duplicate record entries and enforce borrowing caps. Dynamic frontend search was enhanced with clean <strong>JavaScript</strong>, while the UI layout was crafted with responsive CSS to support multi-device operations across the campus.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5: Project Links -->
+      <div class="project-links-wrap">
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-green-solid gaming-font">
+          <span class="pulse-dot"></span>
+          Live Preview
+        </a>
+        <a href="https://github.com/saidurrahman" target="_blank" class="proj-btn btn-green-outline gaming-font">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          Source Code (GitHub)
+        </a>
+      </div>
+    </article>
+
+    <!-- Bottom Actions -->
+    <div class="about-actions">
+      <a href="index.html" class="btn btn-secondary gaming-font">← Back to Home</a>
+      <a href="about.html" target="_blank" class="btn btn-secondary gaming-font">About Me Page</a>
+      <a href="contact.html" target="_blank" class="btn btn-primary gaming-font">Contact Saidur</a>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

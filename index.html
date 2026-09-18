@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SR. | Full Stack Developer Portfolio</title>
+  <meta name="description" content="Full Stack Developer – Portfolio of Saidur Rahman." />
+  <meta name="theme-color" content="#050d1a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Google Fonts: Orbitron, Rajdhani, Share Tech Mono, Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@600;700;800&family=Share+Tech+Mono&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-tech">
+
+  <!-- Animated Tech Network Canvas -->
+  <canvas id="techCanvas"></canvas>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo gaming-font" id="logo-link">SR.</a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home"      class="nav-item active" id="nav-home">Home</a>
+        <a href="about.html" target="_blank" class="nav-item" id="nav-about">About me</a>
+        <a href="resume.pdf" target="_blank" class="nav-item" id="nav-resume">Resume</a>
+        <a href="#services"  class="nav-item"        id="nav-services">Services</a>
+        <a href="projects.html" target="_blank" class="nav-item" id="nav-portfolio">Projects</a>
+        <a href="#pricing"   class="nav-item"        id="nav-pricing">Pricing</a>
+        <a href="contact.html" target="_blank" class="nav-item" id="nav-contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting gaming-subfont" id="hero-greeting">
+        HELLO, I'M <span class="highlight gaming-font">SAIDUR RAHMAN</span>
+      </p>
+      <h1 class="hero-title gaming-font" id="hero-title">
+        <span class="typewriter-text" id="typewriter-hero"></span><span class="typewriter-cursor">_</span>
+      </h1>
+      <p class="hero-subtitle gaming-subfont" id="hero-subtitle">
+        Architecting robust full-stack applications &amp; intelligent AI systems from frontend to backend.
+      </p>
+      <div class="hero-buttons">
+        <a href="contact.html" target="_blank" class="btn btn-primary gaming-font" id="btn-hire">Hire Me</a>
+        <a href="resume.pdf" target="_blank" class="btn btn-secondary gaming-font" id="btn-resume">Get Resume</a>
+      </div>
+    </div>
+
+    <!-- Photo Upload Circle -->
+    <div class="hero-photo-wrapper" id="hero-photo-wrapper">
+      <div class="photo-glow-ring"></div>
+      <div
+        class="photo-circle has-photo"
+        id="photo-circle"
+        role="button"
+        tabindex="0"
+        aria-label="Upload your photo"
+        title="Click or drag and drop to upload your photo"
+      >
+        <div class="upload-placeholder hidden" id="upload-placeholder">
+          <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="17 8 12 3 7 8"/>
+            <line x1="12" y1="3" x2="12" y2="15"/>
+          </svg>
+          <p class="upload-text">Upload Photo</p>
+          <p class="upload-hint">Click or Drag and Drop</p>
+        </div>
+
+        <img class="uploaded-photo visible" id="uploaded-photo" src="profile.png" alt="Profile photo" />
+        <button class="remove-photo visible" id="remove-photo" aria-label="Remove photo" title="Remove photo">✕</button>
+        <input type="file" id="photo-input" accept="image/*" aria-hidden="true" />
+      </div>
+    </div>
+
+    <!-- Animated Ocean Waves -->
+    <div class="wave-container" aria-hidden="true">
+      <!-- Wave layer 1 – base (slowest, full opacity) -->
+      <svg class="wave wave-1" viewBox="0 0 2880 180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,90 C180,150 360,30 540,90 C720,150 900,30 1080,90 C1260,150 1440,30 1620,90 C1800,150 1980,30 2160,90 C2340,150 2520,30 2700,90 C2790,120 2835,70 2880,90 L2880,180 L0,180 Z" fill="#00897b"/>
+      </svg>
+      <!-- Wave layer 2 – mid (medium speed, semi-transparent) -->
+      <svg class="wave wave-2" viewBox="0 0 2880 180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,110 C200,50 400,170 600,110 C800,50 1000,170 1200,110 C1400,50 1600,170 1800,110 C2000,50 2200,170 2400,110 C2600,50 2750,140 2880,110 L2880,180 L0,180 Z" fill="#00bfa5"/>
+      </svg>
+      <!-- Wave layer 3 – foam (fastest, lightest) -->
+      <svg class="wave wave-3" viewBox="0 0 2880 180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,125 C160,75 320,160 480,125 C640,75 800,160 960,125 C1120,75 1280,160 1440,125 C1600,75 1760,160 1920,125 C2080,75 2240,160 2400,125 C2560,75 2720,155 2880,125 L2880,180 L0,180 Z" fill="#33e8d0"/>
+      </svg>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+  <script>
+    // Gaming Typewriter Animation for Home Title
+    document.addEventListener('DOMContentLoaded', () => {
+      const phrases = [
+        "FULL STACK DEVELOPER",
+        "AI SYSTEMS BUILDER",
+        "SOFTWARE ENGINEER",
+        "FASTAPI & REACT DEV"
+      ];
+      const textEl = document.getElementById('typewriter-hero');
+      if (!textEl) return;
+
+      let phraseIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+      const typeSpeed = 90;
+      const deleteSpeed = 45;
+      const pauseEnd = 2000;
+      const pauseStart = 400;
+
+      function typeLoop() {
+        const currentPhrase = phrases[phraseIndex];
+
+        if (isDeleting) {
+          textEl.textContent = currentPhrase.substring(0, charIndex - 1);
+          charIndex--;
+        } else {
+          textEl.textContent = currentPhrase.substring(0, charIndex + 1);
+          charIndex++;
+        }
+
+        let delta = isDeleting ? deleteSpeed : typeSpeed;
+
+        if (!isDeleting && charIndex === currentPhrase.length) {
+          delta = pauseEnd;
+          isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          delta = pauseStart;
+        }
+
+        setTimeout(typeLoop, delta);
+      }
+
+      setTimeout(typeLoop, 350);
+    });
+  </script>
+</body>
+</html>
